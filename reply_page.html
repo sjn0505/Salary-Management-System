@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Del_emp_page</title>
+<link rel="stylesheet" type="text/css" href="del_emp_page.css">
+</head>
+<body>
+<div class="header">
+
+<div class="header-right">
+ 
+ 
+<a class="active" href="notification.php">Back</a>
+
+ 
+<a class="active" href="login1.php">Logout</a>
+</div>
+</div>
+
+<div class="container">
+<center><h1>Reply Page</h1></center>
+<form class="border" action="reply_page.php" method="POST">
+
+
+<div class="row">
+<div class="coll">
+<label for="ids">No.of.leaves approved:</label>
+</div>
+<div class="colr">
+<input type="number" id="ids" name="leaves" placeholder="0"><br><br>
+</div>
+</div>
+
+<div class="row">
+<div class="coll">
+<label for="id">Text:</label>
+</div>
+<div class="colr">
+<input type="textarea" id="id" name="text" required><br><br>
+</div>
+</div>
+
+
+
+<div class="row">
+<input type="submit"  value="Submit" name="submit">
+</div>
+
+</form>
+</div>
+</body>
+</html>

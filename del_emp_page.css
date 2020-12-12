@@ -1,0 +1,143 @@
+.header{
+	overflow:hidden;
+	background-color: #DAE5DE;
+        padding: 20px 10px;
+        height:100px;
+	
+	}
+
+h1{
+	text-align:center;
+	color:#ffffff;
+     }
+
+* {
+  box-sizing: border-box;
+  
+  
+}
+
+
+input[type=text]{
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  
+}
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.border{
+	border:2px solid #f1f1f1;
+	margin:40px 320px 40px 320px;
+	background:#f1f1f1;
+	padding:25px;
+	}
+
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+.container {
+  border-radius: 3px;
+ // background-color: #f2f2f2;
+  padding: 120px;
+  background:url('https://st3.depositphotos.com/1091429/17990/i/1600/depositphotos_179904952-stock-photo-modern-wireless-technologies-as-means.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  height=100%;
+  
+  
+}
+
+.coll {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.colr {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+/*.icon{
+	float:right;
+	color:white;
+	background-color:blue;
+	border:1px solid blue;
+	padding:5px;
+     }*/
+
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+  padding-right:5px;
+}
+
+.header-right {
+  float: right;
+}  
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}

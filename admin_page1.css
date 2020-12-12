@@ -1,0 +1,35 @@
+.header{
+	overflow:hidden;
+	padding: 20px;
+	text-align:center;
+        color:#000000;
+	font-weight:30px;
+	background-color:#e6e6fa;
+	height:auto;
+	max-height: 10%;
+	}
+
+
+.button{ 
+	 border:2px solid #d8e1ff;
+	 border-radius: 20px;
+	 background:#b0c4de;
+	 text-align:center;
+	 padding:3px;
+	 margin:auto;
+	 width:300px;
+	}
+
+.padd{
+
+	padding-top:20px:
+     }
+
+body{
+	background:url('https://3k304u4dprvw4ajg223qwehe-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/159434207-resized-370x246.jpg');
+	background-repeat:no-repeat;
+        background-size: cover;
+	height=100%;
+    }
+
+
